@@ -39,23 +39,49 @@
 // console.log(age)
 
 
-const user2={
-    name:"Loki",
-    age:22,
-    add:{
-        city:"Hyd",
-        permanent_add:{
-            "pin code":500075
-        }
-    }
-}
-console.log(user2.add.permanent_add["pin code"])
+// const user2={
+//     name:"Loki",
+//     age:22,
+//     add:{
+//         city:"Hyd",
+//         permanent_add:{
+//             "pin code":500075
+//         }
+//     }
+// }
+// console.log(user2.add.permanent_add["pin code"])
 
-const {add:{city, permanent_add:{"pin code":pincode}}}=user2
+// const {add:{city, permanent_add:{"pin code":pincode}}}=user2
 
-console.log(city,pincode)
+// console.log(city,pincode)
 
-const { name, ...rest}=user2
-console.log(name)
-console.log(rest)
+// const { name, ...rest}=user2
+// console.log(name)
+// console.log(rest)
 
+
+
+// user9={
+//     name:"Lokesh",
+//     age:22,
+//     city:"hyd"
+// }
+// const {role="student"}=user9
+// console.log(role)
+// function greet({name,age}){
+//     console.log(name,age);
+// }
+
+// greet(user9)
+
+// greet2=({name="user"})=>{
+//     console.log("Hello",name);
+// }
+// greet2(user9)
+
+// arr10=[1,2,3]
+
+// function sum([a,b]){
+//     console.log(a+b)
+// }
+// sum([4,5]);
